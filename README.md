@@ -10,9 +10,9 @@ Develop an application that prints a recurring message once its preamble pattern
    
  - Look for the equivalent of the string "CAPTIVATION" in the input stream, and once found, print the next 100 characters to STDOUT. 
    
-     > Example Input: CAPTIVATIONfoo bar baz
+     > Example Input: fooCAPTIVATIONbar baz
      >
-     > Expected Output: foo bar baz
+     > Expected Output: bar baz
  
  - Do not write anything else to STDOUT, only the 100 characters following the string "CAPTIVATION"
  
