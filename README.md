@@ -10,6 +10,8 @@ Develop an application that:
 - The input will only ever consist of 1's and 0's, no input validation is required
 - The input stream is to be treated as if it is never-ending
 - Nothing else should be printed to STDOUT, only the 100 characters following the string "CAPTIVATION"
+
+## Rules
 - This solution will be tested by an automated tool, so failure to adhere to this spec precisely will produce a failing result 
 - Your solution should include instructions on how to run/build via Linux command line (or even better, be Docker-compatible)
 - Your solution will be judged for correctness, performance, and style
