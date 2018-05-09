@@ -4,7 +4,7 @@
 Develop an application that:
 - Reads a stream of input characters consisting of only the character '1' and '0' from STDIN,
 - Decodes every 8 input characters into a single, zero-padded ASCII equivalent (e.g. "01000011" decodes to 'C')
-- Search the decoded message for the string "CAPTIVATION", and once found, print the next 100 characters to STDOUT
+- Searches the decoded message for the string "CAPTIVATION", and once found, print the next 100 decoded characters to STDOUT
 
 ## Guidelines:
 - The input will only ever consist of 1's and 0's, no vinput alidation is required
