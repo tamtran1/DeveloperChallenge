@@ -7,7 +7,7 @@ Develop an application that:
 - Searches the decoded message for the string "CAPTIVATION", and once found, print the next 100 decoded characters to STDOUT
 
 ## Guidelines:
-- The input will only ever consist of 1's and 0's, no vinput alidation is required
+- The input will only ever consist of 1's and 0's, no input validation is required
 - The input stream is to be treated as if it is never-ending
 - Nothing else should be printed to STDOUT, only the 100 characters following the string "CAPTIVATION"
 - This solution will be tested by an automated tool, so failure to adhere to this spec precisely will produce a failing result 
