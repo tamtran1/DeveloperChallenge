@@ -19,7 +19,9 @@ Develop an application that:
 
 ## STDOUT Generator
 A reference data generator is provided at https://hub.docker.com/r/captivation/ascii-generator/:
+**Careful:** The ascii-generator should be piped to a file/executable as printing directly into the terminal may cause the terminal to become unresponsive. 
 ```bash
-docker run -i captivation/ascii-generator > output.txt
+```bash
+#!/bin/bash
+docker run -i captivation/ascii-generator > test.txt 
 ```
--
