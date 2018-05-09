@@ -16,3 +16,10 @@ Develop an application that:
 - Your solution should include instructions on how to run/build via Linux command line (or even better, be Docker-compatible)
 - Your solution will be judged for correctness, performance, and style
 - You may use any language you'd like, but you can only use standard libraries
+
+## STDOUT Generator
+A reference data generator is provided at https://hub.docker.com/r/captivation/ascii-generator/:
+```bash
+docker run -i captivation/ascii-generator > output.txt
+```
+-
