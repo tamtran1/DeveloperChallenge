@@ -3,13 +3,15 @@
 ## Your Task
 Develop an application that:
 - Reads a stream of input characters consisting of only the character '1' and '0' from STDIN,
-- Decodes every 8 input characters into a single, zero-padded ASCII equivalent (e.g. "01000011" decodes to 'C')
-- Searches the decoded message for the string "CAPTIVATION", and once found, print the next 100 decoded characters to STDOUT
+- Decodes input characters into a single, zero-padded ASCII equivalent (e.g. "01000011" decodes to 'C')
+- Searches the decoded message for the preamble string "CAPTIVATION", and once found, prints the next one hundred decoded characters to STDOUT
 
 ## Guidelines:
-- The input will only ever consist of 1's and 0's, no input validation is required
 - The input stream is to be treated as if it is never-ending
-- Nothing else should be printed to STDOUT, only the 100 characters following the string "CAPTIVATION"
+- The input stream will only ever consist of combinations of the character '1' or '0', no input validation is required
+- The encoded preamble string may be preceded by an arbitrary number of characters, and is not guaranteed to start at position 0.
+- Multiple messages may occur within the same input stream, and the number of characters between messages is random
+- Nothing else should be printed to STDOUT, only the one hundred characters following the preamble string "CAPTIVATION"
 
 ## Rules
 - This solution will be tested by an automated tool, so failure to adhere to this spec precisely will produce a failing result 
