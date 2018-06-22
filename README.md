@@ -11,7 +11,7 @@ Develop an application that:
 - The input stream is to be treated as if it is never-ending
 - Multiple preamble/message occurences may occur within the same input stream
 - Preamble/message occurrences are not guaranteed to be well-aligned (e.g. not guaranteed to start at bit position 0)
-- The number of characters between each preamble/message occurrence is variable 
+- The number of '0' and '1' characters between each preamble/message occurrence is variable 
 - Nothing else should be printed to STDOUT, only the one hundred characters following the preamble string "CAPTIVATION"
 
 ## Guidelines
