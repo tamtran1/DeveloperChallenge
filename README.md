@@ -16,6 +16,6 @@ Develop an application that:
 
 ## Guidelines
 - This solution will be tested by an automated tool, so failure to adhere to this spec precisely will produce a failing result 
-- Your solution should include instructions on how to run/build via Linux command line (or even better, be Docker-compatible)
+- Your solution should include instructions on how to run/build via Linux command line (or even better, use Docker)
 - Your solution will be judged for correctness, performance, and style
 - You may use any language you'd like, but you can only use standard libraries
