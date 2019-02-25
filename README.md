@@ -9,7 +9,7 @@ Develop an application that:
 ## Rules
 - The input stream will only ever consist of combinations of the character '0' or '1', no input validation is required
 - The input stream is to be treated as if it is never-ending
-- Multiple preamble/message occurences may occur within the same input stream
+- Multiple preamble/message occurrences may occur within the same input stream
 - Preamble/message occurrences are not guaranteed to be well-aligned (e.g. an arbitrary number of "bits" may precede a preamble, not just a multiple of 8)
 - The number of '0' and '1' characters between each preamble/message occurrence is variable 
 - Nothing else should be printed to STDOUT, only the one hundred characters following the preamble string "CAPTIVATION"
