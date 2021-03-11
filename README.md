@@ -19,3 +19,4 @@ Develop an application that:
 - Your solution should include instructions on how to run/build via Linux command line (or even better, use Docker)
 - Your solution will be judged for correctness, performance, and style
 - You may use any language you'd like, but you can only use standard libraries
+- Your solution must be your own original work
