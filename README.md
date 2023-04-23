@@ -21,4 +21,11 @@ Develop an application that:
 - You may use any language you'd like, but you can only use standard libraries
 - Your solution must be your own original work
 
-## Instruction for build and run developer challenge solution
+## Instruction for building and running Tam Tran developer challenge solution
+Build the Docker image for the JDK environment
+- docker build . -t tamtran/developerchallenge
+
+Run the Docker container
+- docker run --rm -it tamtran/developerchallenge bash
+
+The application process should be running and ready to accept test data input from the same terminal session
