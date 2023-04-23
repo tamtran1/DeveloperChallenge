@@ -98,7 +98,7 @@ public class Process {
    *  to decode the string of bits in the buffer into a string of chars.
    */
   private void run() throws IOException {
-    System.out.println("Started " + this);
+    // System.out.println("Started " + this);
     boolean found = false;
     try {
       while(true) {
